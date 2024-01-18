@@ -69,7 +69,9 @@ section{
 .imagem{
     background-attachment: fixed;
     background-size: cover;
+    background-position: center right;
     color: white;
+
 }
 
 #imagem01{
@@ -84,7 +86,7 @@ section{
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
     box-shadow: rgba(255, 255, 255, 0.603) 3px 3px 3px;
-    width: 50%;
+    display: inline-block;
     padding: 5px;
     -webkit-text-stroke: black 0.5px;
 }
